@@ -37,7 +37,7 @@ body {
 }
 
 .stopwatch-container {
-    background: rgba(255, 255, 255, 0.525);
+    background: rgba(255, 255, 255, 0.276);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.361);
     padding: 30px;
@@ -47,10 +47,10 @@ body {
 }
 
 .message {
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 20px;
-    font-size: 3rem;
+    font-size: 5rem;
     color: white;
     z-index: 1;
 }
