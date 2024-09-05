@@ -1,8 +1,8 @@
 /* styles.css */
 
 body {
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
+    /* background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; */
     font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .stopwatch-container {
-    background: rgba(255, 255, 255, 0.276);
+    background: rgba(255, 255, 255, 0.539);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.361);
     padding: 30px;
