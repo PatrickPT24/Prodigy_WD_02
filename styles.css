@@ -37,9 +37,9 @@ body {
 }
 
 .stopwatch-container {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.525);
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.361);
     padding: 30px;
     text-align: center;
     width: 300px;
@@ -47,10 +47,10 @@ body {
 }
 
 .message {
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     z-index: 1;
 }
@@ -81,12 +81,12 @@ body {
     margin: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .controls .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
 
 .lap-times h3 {
